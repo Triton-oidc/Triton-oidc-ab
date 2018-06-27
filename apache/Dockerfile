@@ -30,6 +30,7 @@ ARG redirectafteroidc=http://localhost:80
 
 ENV http_proxy ${proxy}
 ENV https_proxy ${proxy}
+ENV no_proxy localhost,127.0.0.0/8,127.0.0.1,::1
 
 RUN yum update && \
 yum clean all && \
