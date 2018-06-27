@@ -11,7 +11,7 @@ ARG httpmode=https
 ARG wellknown=https://idp01.tpsarctriton.sbx-aas.gotocloud.io:9443/fake/auth/realms/GreenAirline/.well-known/openid-configuration
 #ARG wellknown=https://idp01.tpsarctriton.sbx-aas.gotocloud.io:9443/auth/realms/GreenAirline/.well-known/openid-configuration
 ARG clientid=greenairlines-secure
-ARG clientsecret=da0e405b-d12a-4380-bc9b-67fcd9f521a0
+ARG clientsecret=XXXXX-XXXXX
 ARG redirecturi=https://${publichostname}:443/callback
 #Not an argument, c'estaen dure dans le fichier de conf
 #pas reussi a faire passer l'espace ni les doubles quotes
